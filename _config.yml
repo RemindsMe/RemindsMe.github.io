@@ -34,9 +34,9 @@ links:
   - title: 主页
     url: /
   - title: 技术
-    url: /blogs_skill
+    url: /skills
   - title: 随笔
-    url: /blogs_notes
+    url: /notes
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: China/Beijing
