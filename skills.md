@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /blogs/index.html
-title: Blogs
+permalink: /skills/index.html
+title: 技术
 ---
 
-## Chinese Blogs
+## 技术篇
 
 ### 2023
 
