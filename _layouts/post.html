@@ -40,8 +40,8 @@
     {% include author-bio.html %}
   </div>
   <article itemscope itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+    <!-- headline -->
     <div class="headline-wrap">
-      <!-- headline -->
       <h1 itemprop="headline">{{ page.title }}</h1>
       <p class="byline">
         <time datetime="{{ page.date }}" itemprop="datePublished">
@@ -54,16 +54,10 @@
         {% endif %} 
       </p>
     </div>
-    <!--/ .headline-wrap -->
+    <!-- article -->
     <div class="article-wrap" itemprop="text">
       {{ content }}
-      <hr />
-      <footer role="contentinfo">
-        <div class="article-author-bottom">
-          {% include author-bio.html %}
-        </div>
-      </footer>
-    </div><!-- /.article-wrap -->
+    </div>
   </article>
 </div><!-- /#main -->
 
