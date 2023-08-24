@@ -1,8 +1,8 @@
-<!-- It is not recommended to modify this code, unless you are a Pro-->
-<!-- Lastly modified by Hanlin CAI in 2023/04/26 -->
-
 <meta charset="utf-8">
-<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+<title>
+  {% if page.title %}{{ page.title }} &#8211; 
+  {% endif %}{{ site.title }}
+</title>
 {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 {% if site.owner.twitter %}<!-- Twitter Card and Open Graph meta -->
@@ -68,3 +68,7 @@
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/fav.png">
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/fav.png">
+
+
+<!-- Lastly modified by Hanlin CAI in 2023/04/26 -->
+<!-- Lastly modified by lyh in 2023/08/24 -->
