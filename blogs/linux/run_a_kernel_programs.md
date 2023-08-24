@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: 运行一个内核模块程序
 date: 2023-08-23
 tags: Linux
