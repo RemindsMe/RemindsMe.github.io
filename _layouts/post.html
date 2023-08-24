@@ -1,6 +1,3 @@
-<!-- Lastly modified by Hanlin CAI in 2023/04/26 -->
-<!-- It is not recommended to modify this code, unless you are a Pro-->
-
 <!doctype html>
 <!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
@@ -64,7 +61,7 @@
 
 <div class="footer-wrap">
   {% if site.related_posts.size %}<div class="related-articles">
-  <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/articles">View all articles</a>)</small></h4>
+  <h4>You might also enjoy <small class="pull-right">(<a href="{{ site.url }}/blogs/linux">View all articles</a>)</small></h4>
     <ul>
     {% for post in site.related_posts limit:3 %}
       {% assign match = false %}
@@ -79,7 +76,9 @@
     {% endfor %}
     </ul>
     <hr />
-  </div><!-- /.related-articles -->{% endif %}
+  </div><!-- /.related-articles -->
+  {% endif %}
+
   <footer>
     {% include footer.html %}
   </footer>
@@ -89,3 +88,6 @@
 
 </body>
 </html>
+
+<!-- Lastly modified by Hanlin CAI in 2023/04/26 -->
+<!-- Lastly modified by lyh in 2023/08/24 -->
