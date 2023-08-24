@@ -78,4 +78,8 @@ tail -f /var/log/messages
 # 2 - 查看 dmesg
 dmesg
 ```
+<br>
 
+{% include disqus.html %} 
+
+<br>
